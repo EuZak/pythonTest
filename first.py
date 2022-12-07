@@ -58,8 +58,6 @@ try:
     else:
         print("Test passed. The new computer has not been added")
 
-    # check Positive response
-
     # open DevTools
     # select = Service(driver.find_element_by_css_selector("select"))
     # driver.find_element(By.CSS_SELECTOR("body")).send_keys(Keys.F12)
