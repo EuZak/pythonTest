@@ -58,15 +58,7 @@ try:
     else:
         print("Test passed. The new computer has not been added")
 
-    # open DevTools
-    # select = Service(driver.find_element_by_css_selector("select"))
-    # driver.find_element(By.CSS_SELECTOR("body")).send_keys(Keys.F12)
 
-    # driver.find_element(By.NAME, "Create this computer").click()
-    # driver.find_element(By.XPATH("//*[local-name()='option' and text()='RCA']")).click()
-    # # companyName = driver.find_element("//*[local-name() = 'option' and contains(@value, '1') and text() = 'Apple Inc.' ]"))
-    # companyName = driver.find_element(By.XPATH('//*[local-name()="option"and contains(@value, "1")and text()="Apple Inc."]'))
-    # companyName.click()
 
 except Exception as ex:
     print(ex)
